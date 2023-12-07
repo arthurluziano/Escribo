@@ -1,0 +1,19 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurluziano/Escribo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurluziano/Escribo/issues"
+  },
+  "homepage": "https://github.com/arthurluziano/Escribo#readme"
+}
