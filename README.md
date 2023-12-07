@@ -19,19 +19,17 @@ Para clonar o repositório, digite:
 git clone https://github.com/arthurluziano/Escribo
 ```
 
-Instale 
+Entre na pasta do projeto:
 
-Para rodar o projeto, será necessário instalar uma extensão chamada **Node.js Exec**, feita pelo editor: **Miramac**. <br/>
-Essa extensão nos permite rodar o projeto em Node. <br/> <br/>
-`f8` para iniciar <br/>
-`f9` para finalizar
+```
+cd Escribo
+```
 
-![Screenshot mostrando o resultado obtido através da extensão](https://github.com/arthurluziano/Escribo/assets/82678578/8cb2ee65-9025-4377-b131-359479ebee38)
+Para rodar o projeto, execute o comando:
 
-## Testando o projeto
-
-Para testar o projeto, devemos chamar a função `somaDiv()` e atribuir o número desejado, como por exemplo: `somaDiv(10)`. 
-O projeto será executado e nos retornará a soma entre os valores menores do que o número inserido pelo usuário, seguindo a condição (sendo divisível por 3 ou por 5).
+```
+npm run dev
+```
 
 ## Licença
 
