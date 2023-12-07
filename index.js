@@ -12,7 +12,8 @@ function somaDiv(num) {
             soma += x
         }
     }
-    
+
+    console.log(`O valor inicial foi: ${num}`)
     console.log(`A soma entre valores divisíveis por 3 ou por 5 foi: ${soma}`)
 }
 
