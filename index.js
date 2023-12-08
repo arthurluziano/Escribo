@@ -1,16 +1,16 @@
 const read = require('readline-sync')
 
 function somaDiv() {
-    var valor = Number(read.question('Digite um numero: '))
+    let valor = Number(read.question('Digite um numero: '))
 
     if(typeof valor === 'number' && valor > 0){
-        const container = []
+        let container = []
         
         for(let x = 1; x < valor; x++){
             container.push(x)
         }
             
-        var soma = 0
+        let soma = 0
         
         for(x of container){
             if(x % 3 == 0 || x % 5 == 0){
